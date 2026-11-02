@@ -75,7 +75,7 @@ Return ONLY valid JSON. No extra text, no markdown, no code blocks.
 """
 
     response = client.models.generate_content(
-        model="models/gemini-3.8-flash",
+        model="models/gemini-3.8-flash-lite",
         contents=prompt
     )
 
